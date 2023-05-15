@@ -64,6 +64,6 @@ if text != "":
 st.write("Example SMS of  :red[SPAM]")
 st.code(f"""{df[df['label'] == 'spam']['text'].sample(1).values[0]}""")
 st.caption("Example SMS of  :green[HAM]")
-st.code(f"""Ham: {df[df['label'] == 'ham']['text'].sample(1).values[0]}""")
+st.code(f"""{df[df['label'] == 'ham']['text'].sample(1).values[0]}""")
 
 
